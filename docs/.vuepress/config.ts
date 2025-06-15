@@ -5,9 +5,17 @@ import theme from "./theme.js";
 
 const __dirname = getDirname(import.meta.url);
 
+const getBasePath = () => {
+  const platform = process.env.DEPLOY_PLATFORM;
+  if (platform === 'github') {
+    return '/docs/';
+  }
+  return '/';
+};
+
 export default defineUserConfig({
   theme,
-  base: "/", // For Github Pages
+  base: getBasePath(),
   head: [
     [
       "link",
