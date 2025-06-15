@@ -20,6 +20,7 @@ export default hopeTheme(
       "/": {
         navbar: navbar.en,
         sidebar: sidebar.en,
+        copyright: false
         footer: 'AGPL-3.0 Licensed | Copyright © 2022-present The OpenList Team',
         displayFooter: true,
       },
@@ -30,6 +31,7 @@ export default hopeTheme(
       "/zh/": {
         navbar: navbar.zh,
         sidebar: sidebar.zh,
+        copyright: false
         footer: 'AGPL-3.0 Licensed | Copyright © 2022-present The OpenList Team',
         displayFooter: true,
       },
