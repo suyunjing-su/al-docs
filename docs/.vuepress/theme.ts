@@ -14,7 +14,7 @@ export default hopeTheme(
       url: "https://github.com/OpenListTeam",
     },
 
-//    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
     locales: {
       "/": {
